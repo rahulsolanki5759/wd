@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <style>
+        .navbar{
+            background-color: rgb(37, 34, 34);
+            border-radius: 20px;
+        }
+        .navbar ul{
+            overflow:auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding: 19px 40px;
+            font-size: 20px;
+
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            color: white;
+            text-decoration: none;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 120px;
+        }
+        button{
+            border-radius: 10px;
+            padding: 7px 22px;
+        }
+        button:hover{
+            background-color: yellow;
+        }
+        .navbar input{
+            padding: 10px 10px;
+            border-radius: 15px;
+            font-size: 15px;
+            text-align: center;
+        }
+        .navbar li a:hover{
+            color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#"><i class="fa fa-home"></i> home</a></li>
+                <li><a href="#"><i class="fa fa-angle-down"></i> about</a></li>
+                <li><a href="#"><i class="fa fa-s"></i> services</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i> contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this websid">
+                    <button><a href=""><i class="fa fa-search"></i></a> search</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
