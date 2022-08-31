@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <style>
+        body{
+            counter-reset: abc;
+        }
+        nav{
+            border: 1px solid black;
+            height: 200px;
+            width: 100%;
+            }
+            nav ul{
+                border: 1px solid black;
+                box-sizing: border-box;
+                height: 50px;
+                width: 80%;
+                display: flex;
+                /* margin-left: 20px; */
+                
+                }
+                nav ul li{
+                    /* padding-left: 20px; */
+                    margin-left: 50px;
+                }
+            nav ul li::before{
+                counter-increment: abc;
+                content: " li " counter(abc) " :";
+            }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>servis</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
