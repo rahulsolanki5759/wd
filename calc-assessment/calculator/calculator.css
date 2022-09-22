@@ -1,0 +1,82 @@
+*
+{
+ margin: 0;
+ padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+.calculator
+{
+    height: 100px;
+    width: 60%;
+    margin: auto;
+    background: white;
+    margin-top: 5%;
+}
+#btn
+{
+    height: 5%;
+    width: 100%;
+    font-size: 50px;
+    background: black;
+    color: #fff;
+}
+#result
+{
+    min-width: 99% !important;
+    
+}
+
+.clc
+{
+    height: 400px;
+    width: 60%;
+    background: black;
+    margin: auto;
+    display: flex;
+
+}
+.no
+{
+    width: 80%;
+    height: 100%;
+}
+.but
+{
+    width: 20%;
+    height: 100%;
+    background: gray;
+
+}
+#btn1
+{
+    /* width: 100%; */
+    background: gray !important;
+    border: none;
+    font-size: 50px;
+    
+}
+
+.no table
+{
+    width:100%;
+    margin-top: 5%;
+}
+
+.no table th
+{
+     color: #fff;
+     font-size: 50px;
+
+}
+.but table
+{
+    width: 100%;
+
+    font-size: 50px;
+}
