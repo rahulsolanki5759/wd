@@ -1,0 +1,438 @@
+@font-face {
+    font-family: 'Perpetua Titling MT bold';
+    src: url(font/PERTIBD\ \(1\).TTF);
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url(font/ARLRDBD.ttf);
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header start here */
+.header {
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    background: linear-gradient(rgba(77, 72, 70, 0.5), rgba(0, 0, 0, 0.5)), url(flat.png);
+    background-repeat: no-repeat;
+
+}
+
+.sub-header {
+    display: flex;
+}
+
+.logo {
+    padding: 3% 5%;
+    width: 30%;
+
+}
+
+/* nav bar start here */
+.navbar {
+    width: 70%;
+    height: auto;
+
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+    text-transform: uppercase;
+
+
+
+}
+
+.navbar li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: red;
+    display: block;
+    margin-left: 0;
+    position: relative;
+    top: 5px;
+    transition: .5s;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+}
+
+.navbar li a:hover {
+    color: yellow;
+}
+
+.src {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.src input {
+    width: 65%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+a .fa-search {
+    position: relative;
+    right: 50px;
+    top: 7px
+}
+
+/* sub-title here */
+
+.title h1 {
+    width: 40%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin: auto;
+    font-family: 'Perpetua Titling MT bold';
+}
+
+.title .txt1 {
+    border: 3px solid white;
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.title .txt2 {
+    display: inline;
+}
+
+.title .txt3 {
+    border: 3px solid #fff;
+    width: 60%;
+    margin: auto;
+    /* padding: auto; */
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 1px dashed #fff;
+    margin-top: -30px;
+}
+
+.contant {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.content-main {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.contant1 {
+    width: 48%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+.contant1 p
+{
+    font-family: 'Perpetua Titling MT bold';
+    position: absolute;
+    top: 20px;
+    color:#fff;
+    font-size: 25px;
+    left: 30px;
+}
+
+.contant1 img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: .5s;
+}
+.contant1 img:hover
+{
+    transform: scale(1.3);
+    
+}
+/* <!-- projects and work start here  --> */
+.projects-main
+{
+    width: 93%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+
+}
+.ourteam
+{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    display: flex;
+    overflow: hidden;
+
+}
+.ourteam1
+{
+    width: 45%;
+    height: auto;
+    padding-left: 1%;
+}
+.ourteam1 h2
+{
+    color: #646060;
+    font-size: 55px;
+    font-family: 'Arial Rounded MT Bold';
+    padding-left: 3%;
+}
+.ourteam1 p
+{
+    font-size: 20px;
+    padding-top: 17%;
+    font-family: 'Arial Rounded MT Bold';
+
+}
+.ourteam2
+{
+    width: 51%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.ourteam2 img
+{
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    transform: scale(1);
+    transition: .5s;
+}
+.ourteam2 img:hover
+{
+transform: scale(1.3);
+}
+.project
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 3%;
+    justify-content: space-between;
+}
+.project1
+{
+    width: 51%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.project1 img
+{
+    height: auto;
+    width: auto;
+    transform: scale(1);
+    transition: .4s;
+    border-radius: 5px;
+}
+.project1 img:hover
+{
+    transform: scale(1.3);
+}
+.project2
+{
+    width: 45%;
+    font-size: 20px;
+    font-family: 'Arial Rounded MT Bold';
+   
+}
+.project2 h2
+{
+    font-size: 55px;
+    color: #646060;
+    padding-left: 2%;
+    font-family: 'Arial Rounded MT Bold';
+}
+.project2 p
+{
+    font-size: 20px;
+    padding-top: 17%;
+    font-family: 'Arial Rounded MT Bold';
+}
+.branch-main
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+}
+.branch1
+{
+  height: auto;
+  width: 95%; margin: auto; 
+}
+.branch1 h3
+{
+    font-size: 55px;
+    padding-left: 2%;
+    color: #646060;
+    font-family: 'Arial Rounded MT Bold';
+}
+.branch1 p
+{
+    font-size: 25px;
+    padding-top: 3%;
+    font-family: 'Arial Rounded MT Bold';
+}
+.branch2
+{
+    width: 100%;
+    height: 620px;
+}
+.branch2 img
+{
+    width: 100%;
+    height: 100%;
+}
+.footer-main
+{
+    height: auto;
+    width: 95%;
+    margin: auto;
+}
+.footer-img{
+    width: 100%;
+    height: 620px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.footer-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.footer-logo
+{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+    border-radius: 50%;
+    padding: 3.5%;
+    background: rgba(73, 73, 73, 0.3);
+    
+    box-sizing: border-box;
+    /* text-align: center; */
+    /* overflow: hidden; */
+}
+.footer-logo p
+{
+    color: #fff;
+    padding-top: -4%;
+}
+
+.big-text
+{
+    font-size: 180px;
+    line-height: 1;
+    padding-left: 20%;
+    font-family: Brush Script MT;
+}
+
+.small-text{
+    position: absolute;
+    right:24%;
+    top: 20%;
+    font-size: 35px;
+}
+.small-text2
+{
+    position: absolute;
+    right: 25%;
+    top: 68%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+    
+    font-size: 35px;
+}
+.nextpage
+{
+    height: auto;
+    width: 100%;
+    text-align: right;
+
+}
+.footer-last
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: #887aba;
+    align-items: center;
+}
+.h4
+{
+    width: 50%;
+    padding: 0px 35px;
+    /* text-align: left; */
+}
+.icon
+{
+    width: 50%;
+    text-align: right;
+    padding: 30px;
+}
+
+.icon a{
+    width:30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    color:#000;
+    margin:0px 15px ;
+    border-radius: 50%;
+}
+
+.icon a i{
+    padding:5px;
+}
